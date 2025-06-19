@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Environment variables
+.env
+.env*.local
+!.env.example
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE / Editor specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build output
+dist/
+build/
+public/build/
+
+# Firebase
+.firebase/
+firebase-debug.log
+database-debug.log
+
+# Genkit
+.genkit/
+genkit.log
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Test Output
+coverage/
