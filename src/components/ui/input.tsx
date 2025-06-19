@@ -1,7 +1,20 @@
+/**
+ * Input component for text input fields.
+ * Uses tailwind CSS classes for styling and supports forwarding refs.
+ */
+
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * Input component implementation.
+ * @param className - Additional class names.
+ * @param type - Input type attribute.
+ * @param props - Other input props.
+ * @param ref - Ref forwarded to the input element.
+ * @returns JSX element for the input.
+ */
 const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(
   ({ className, type, ...props }, ref) => {
     return (
