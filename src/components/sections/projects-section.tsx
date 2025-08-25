@@ -17,7 +17,7 @@ const projects = [
     image: "/project-images/ai-resume-screening.png?v=refresh",
     imageHint: "ai resume screening",
     githubLink: "https://github.com/Tejas164321/AI-Powered-Resume-Parser-Rancker",
-    demoLink: "#",
+    demoLink: "https://resumerankai.vercel.app/",
     tags: ["AI/ML", "NLP", "Python", "Project Lead"]
   },
   {
@@ -61,7 +61,7 @@ const projects = [
     image: "/project-images/portfolio-site.png?v=refresh",
     imageHint: "portfolio design",
     githubLink: "https://github.com/Tejas164321",
-    demoLink: "#",
+    demoLink: "https://tejasfolio.vercel.app/",
     tags: ["Next.js", "React", "Tailwind CSS", "ShadCN", "Genkit", "Firebase", "Portfolio"]
   },
 ];
