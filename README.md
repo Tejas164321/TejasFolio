@@ -248,6 +248,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-**Built with ❤️ by Tejas Patil**
+**Your Personal Portfolio**
 
-*Last updated: 2024*
+
