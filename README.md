@@ -238,13 +238,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🙏 Acknowledgments
-
-- **ShadCN UI** for beautiful, accessible components
-- **Google Genkit** for seamless AI integration
-- **Framer Motion** for smooth animations
-- **Tailwind CSS** for rapid styling
-- **Next.js** team for an amazing framework
 
 ---
 
