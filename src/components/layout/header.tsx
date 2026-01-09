@@ -40,7 +40,7 @@ export default function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <Link href="/" className="mr-4 flex items-center space-x-2">
           <Feather className="h-6 w-6 text-primary" />
-          <span className="font-bold">Tejas</span>
+          <span className="font-bold">Tejasfolio</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-1 text-sm font-medium">
           {navItems.map((item) => (
@@ -68,16 +68,16 @@ export default function Header() {
               <nav className="flex flex-col space-y-4 mt-8">
                 {navItems.map((item) => (
                   <SheetClose asChild key={item.label}>
-                     <Link
-                        href={item.href}
-                        onClick={(e) => scrollToSection(e, item.href)}
-                        className="block px-2 py-1 text-lg transition-colors hover:text-primary"
-                      >
-                        {item.label}
-                      </Link>
+                    <Link
+                      href={item.href}
+                      onClick={(e) => scrollToSection(e, item.href)}
+                      className="block px-2 py-1 text-lg transition-colors hover:text-primary"
+                    >
+                      {item.label}
+                    </Link>
                   </SheetClose>
                 ))}
-                 <SheetClose id="mobile-nav-close" className="hidden"></SheetClose>
+                <SheetClose id="mobile-nav-close" className="hidden"></SheetClose>
               </nav>
             </SheetContent>
           </Sheet>

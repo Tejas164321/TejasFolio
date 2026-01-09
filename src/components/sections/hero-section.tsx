@@ -20,7 +20,7 @@ const heroContainerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.15, 
+      staggerChildren: 0.15,
     }
   }
 };
@@ -70,7 +70,7 @@ export default function HeroSection() {
           className="font-headline text-3xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
           variants={heroItemVariant}
         >
-          Hi, I’m Tejas Patil 👋
+          Hi, I’m <span className="text-primary">Tejasfolio</span> <br className="hidden md:block" /> (Tejas Patil) 👋
         </motion.h1>
         <motion.p
           className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg md:text-xl"

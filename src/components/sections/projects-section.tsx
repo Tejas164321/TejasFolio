@@ -116,39 +116,40 @@ export default function ProjectsSection() {
       >
         {projects.map((project) => (
           <motion.div key={project.title} variants={fadeInUp}>
-            <Card className="flex flex-col overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.01] h-full">
+            <Card className="flex flex-col overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.01] h-full" itemScope itemType="https://schema.org/SoftwareSourceCode">
               <CardHeader className="p-0">
                 <Image
                   src={project.image}
-                  alt={project.title}
+                  alt={`Tejasfolio project: ${project.title}`}
                   width={600}
                   height={400}
                   className="object-cover w-full h-48"
                   data-ai-hint={project.imageHint}
-                  priority={projects.indexOf(project) < 3} 
+                  priority={projects.indexOf(project) < 3}
+                  itemProp="image"
                 />
               </CardHeader>
               <CardContent className="flex-grow p-6 space-y-3">
-                <CardTitle className="font-headline text-xl">{project.title} ({project.role})</CardTitle>
+                <CardTitle className="font-headline text-xl" itemProp="name">{project.title} <span className="text-base font-normal text-muted-foreground">({project.role})</span></CardTitle>
                 <div className="flex items-center text-xs text-muted-foreground pt-1">
                   <CalendarDays className="h-4 w-4 mr-1.5" />
                   <span>{project.dateRange}</span>
                 </div>
-                <CardDescription>{project.description}</CardDescription>
+                <CardDescription itemProp="description">{project.description}</CardDescription>
                 <div className="flex flex-wrap gap-2 pt-2">
                   {project.tags.map(tag => (
-                    <span key={tag} className="text-xs bg-accent/20 text-accent-foreground dark:text-accent px-2 py-1 rounded-full">{tag}</span>
+                    <span key={tag} className="text-xs bg-accent/20 text-accent-foreground dark:text-accent px-2 py-1 rounded-full" itemProp="keywords">{tag}</span>
                   ))}
                 </div>
               </CardContent>
               <CardFooter className="p-6 border-t">
                 <div className="flex justify-between items-center w-full">
                   <Button asChild variant="outline" size="sm">
-                    <Link href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                    <Link href={project.githubLink} target="_blank" rel="noopener noreferrer" itemProp="codeRepository">
                       <Github className="mr-2 h-4 w-4" /> GitHub
                     </Link>
                   </Button>
-                  <div> 
+                  <div>
                     {project.demoLink && project.demoLink !== "#" && (
                       <Button asChild variant="outline" size="sm">
                         <Link href={project.demoLink} target="_blank" rel="noopener noreferrer">
@@ -157,10 +158,10 @@ export default function ProjectsSection() {
                       </Button>
                     )}
                     {project.demoLink === "#" && (
-                       <Button variant="outline" size="sm" disabled>
-                         <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
-                       </Button>
-                     )}
+                      <Button variant="outline" size="sm" disabled>
+                        <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
+                      </Button>
+                    )}
                   </div>
                 </div>
               </CardFooter>

@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="border-t border-border/40 py-8">
       <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
         <p className="text-sm text-muted-foreground">
-          &copy; {currentYear} Tejas Patil. All rights reserved.
+          &copy; {currentYear} Tejasfolio (Tejas Patil). All rights reserved.
         </p>
         <div className="flex items-center space-x-3 md:space-x-4">
           <Link href="https://github.com/Tejas164321" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
