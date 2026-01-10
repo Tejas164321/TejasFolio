@@ -91,7 +91,7 @@ export default function HeroSection() {
               <ArrowDown className="ml-2 h-5 w-5" />
             </Button>
           </Link>
-          <Link href="/resume/Tejas-Patil-Resume.pdf" download="Tejas-Patil-Resume.pdf">
+          <a href="/resume/Tejas-Patil-Resume.pdf" download="Tejas-Patil-Resume.pdf">
             <Button
               variant="outline"
               size="lg"
@@ -100,7 +100,7 @@ export default function HeroSection() {
               Download Resume
               <Download className="ml-2 h-5 w-5" />
             </Button>
-          </Link>
+          </a>
         </motion.div>
       </motion.div>
       <motion.div
