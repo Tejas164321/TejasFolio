@@ -12,10 +12,10 @@ export default function Footer() {
         </p>
         <div className="flex items-center space-x-3 md:space-x-4">
           <Link href="https://github.com/Tejas164321" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <Github className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
+            <Github className="h-5 w-5 text-muted-foreground hover:text-brand transition-colors" />
           </Link>
           <Link href="https://www.linkedin.com/in/tejaspatil1643b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
+            <Linkedin className="h-5 w-5 text-muted-foreground hover:text-brand transition-colors" />
           </Link>
         </div>
       </div>

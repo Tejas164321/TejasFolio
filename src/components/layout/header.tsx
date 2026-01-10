@@ -39,7 +39,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <Link href="/" className="mr-4 flex items-center space-x-2">
-          <Feather className="h-6 w-6 text-primary" />
+          <Feather className="h-6 w-6 text-brand" />
           <span className="font-bold">Tejasfolio</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-1 text-sm font-medium">
@@ -48,10 +48,10 @@ export default function Header() {
               key={item.label}
               href={item.href}
               onClick={(e) => scrollToSection(e, item.href)}
-              className="px-3 py-2 transition-colors hover:text-primary text-foreground/60 relative group"
+              className="px-3 py-2 transition-colors hover:text-brand text-foreground/60 relative group"
             >
               {item.label}
-              <span className="absolute bottom-[6px] left-0 w-0 h-[1.5px] bg-primary transition-all duration-300 ease-out group-hover:w-full group-hover:left-[50%] group-hover:translate-x-[-50%]"></span>
+              <span className="absolute bottom-[6px] left-0 w-0 h-[1.5px] bg-brand transition-all duration-300 ease-out group-hover:w-full group-hover:left-[50%] group-hover:translate-x-[-50%]"></span>
             </Link>
           ))}
         </nav>
@@ -71,7 +71,7 @@ export default function Header() {
                     <Link
                       href={item.href}
                       onClick={(e) => scrollToSection(e, item.href)}
-                      className="block px-2 py-1 text-lg transition-colors hover:text-primary"
+                      className="block px-2 py-1 text-lg transition-colors hover:text-brand"
                     >
                       {item.label}
                     </Link>

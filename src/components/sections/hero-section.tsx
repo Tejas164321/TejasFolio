@@ -70,7 +70,7 @@ export default function HeroSection() {
           className="font-headline text-3xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
           variants={heroItemVariant}
         >
-          Hi, I’m <span className="text-primary">Tejasfolio</span> <br className="hidden md:block" /> (Tejas Patil) 👋
+          Hi, I’m <span className="text-brand">Tejasfolio</span> <br className="hidden md:block" /> (Tejas Patil) 👋
         </motion.h1>
         <motion.p
           className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg md:text-xl"
@@ -121,7 +121,7 @@ export default function HeroSection() {
           onClick={(e) => scrollToSection(e, "about")}
           aria-label="Scroll to about section"
         >
-          <ChevronDown className="h-8 w-8 text-primary cursor-pointer hover:text-primary/80 transition-colors" />
+          <ChevronDown className="h-8 w-8 text-brand cursor-pointer hover:text-brand/80 transition-colors" />
         </Link>
       </motion.div>
     </section>

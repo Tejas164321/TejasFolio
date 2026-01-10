@@ -9,7 +9,7 @@ const techSkills = [
   { name: "Java", icon: <Coffee className="h-8 w-8 text-accent" /> },
   { name: "MERN Stack", icon: <Code2 className="h-8 w-8 text-accent" /> },
   { name: "AI/ML", icon: <Brain className="h-8 w-8 text-accent" /> },
-  { name: "Cloud Computing", icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg> },
+  { name: "Cloud Computing", icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" /></svg> },
 ];
 
 const fadeInDown = {
@@ -65,7 +65,7 @@ export default function AboutSection() {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground">
               <p>
-                A passionate and dedicated developer, I thrive on the challenge of building scalable applications using technologies like the MERN stack, Java, and Python. My experience extends to AI-driven automation, optimizing database performance, and architecting efficient RESTful APIs. I am deeply committed to solving real-world problems by leveraging robust software architecture and insightful data-driven solutions, always aiming to deliver impactful and user-centric software.
+                Welcome to Tejasfolio. As a passionate and dedicated developer, I thrive on the challenge of building scalable applications using technologies like the MERN stack, Java, and Python. My experience extends to AI-driven automation, optimizing database performance, and architecting efficient RESTful APIs. I am deeply committed to solving real-world problems by leveraging robust software architecture and insightful data-driven solutions, always aiming to deliver impactful and user-centric software.
               </p>
               <h3 className="font-headline text-xl font-semibold flex items-center pt-4">
                 <Users className="mr-2 h-5 w-5 text-primary" />
