@@ -60,6 +60,12 @@ export default function HeroSection() {
       id="hero"
       className="container flex flex-col items-center justify-center text-center min-h-[70vh] md:min-h-[calc(100vh-56px)] py-12 md:py-24 overflow-hidden relative"
     >
+      {/* SEO fallback for crawlers that don't execute JavaScript */}
+      <noscript>
+        <h1>Tejas Patil</h1>
+        <h2>IT Engineer &amp; Software Developer in Pune</h2>
+        <p>Full-Stack Developer | AI &amp; ML Enthusiast | Building Scalable Solutions</p>
+      </noscript>
       <motion.div
         className="max-w-3xl"
         initial="hidden"
@@ -70,13 +76,19 @@ export default function HeroSection() {
           className="font-headline text-3xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
           variants={heroItemVariant}
         >
-          Hi, I’m Tejas Patil 👋
+          Tejas Patil
         </motion.h1>
+        <motion.h2
+          className="mt-4 font-headline text-xl font-semibold tracking-tight text-primary sm:text-2xl md:text-3xl"
+          variants={heroItemVariant}
+        >
+          IT Engineer &amp; Software Developer in Pune
+        </motion.h2>
         <motion.p
           className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg md:text-xl"
           variants={heroItemVariant}
         >
-          Aspiring Software Engineer | Full-Stack Developer | AI & ML Enthusiast
+          Full-Stack Developer | AI &amp; ML Enthusiast | Building Scalable Solutions
         </motion.p>
         <motion.div
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"

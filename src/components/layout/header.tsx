@@ -40,7 +40,7 @@ export default function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <Link href="/" className="mr-4 flex items-center space-x-2">
           <Feather className="h-6 w-6 text-primary" />
-          <span className="font-bold">Tejas</span>
+          <span className="font-bold">Tejas Patil</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-1 text-sm font-medium">
           {navItems.map((item) => (

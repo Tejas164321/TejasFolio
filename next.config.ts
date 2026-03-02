@@ -22,6 +22,16 @@ const nextConfig: NextConfig = {
   allowedDevOrigins: ['https://6000-firebase-studio-1749053760183.cluster-sumfw3zmzzhzkx4mpvz3ogth4y.cloudworkstations.dev'],
   experimental: {
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'tejasfolio.vercel.app' }],
+        destination: 'https://tejasfolio.in/:path*',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

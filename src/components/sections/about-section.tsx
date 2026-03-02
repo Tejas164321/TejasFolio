@@ -65,6 +65,9 @@ export default function AboutSection() {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground">
               <p>
+                Tejas Patil is an IT engineer and software developer based in Pune, India. Currently pursuing studies at Savitribai Phule Pune University (SPPU), Tejas specializes in full-stack development, machine learning, and AI-driven systems. With hands-on expertise in Java, Python, and the MERN stack, he builds scalable, production-ready applications that solve real-world problems.
+              </p>
+              <p>
                 A passionate and dedicated developer, I thrive on the challenge of building scalable applications using technologies like the MERN stack, Java, and Python. My experience extends to AI-driven automation, optimizing database performance, and architecting efficient RESTful APIs. I am deeply committed to solving real-world problems by leveraging robust software architecture and insightful data-driven solutions, always aiming to deliver impactful and user-centric software.
               </p>
               <h3 className="font-headline text-xl font-semibold flex items-center pt-4">
