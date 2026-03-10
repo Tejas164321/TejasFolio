@@ -1,0 +1,26 @@
+{
+    "redirects": [
+        {
+            "source": "/(.*)",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "tejasfolio.vercel.app"
+                }
+            ],
+            "destination": "https://tejasfolio.in/$1",
+            "permanent": true
+        },
+        {
+            "source": "/(.*)",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "tejasfolio.site"
+                }
+            ],
+            "destination": "https://tejasfolio.in/$1",
+            "permanent": true
+        }
+    ]
+}

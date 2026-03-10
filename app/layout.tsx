@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   creator: "Tejas Patil",
   publisher: "Tejas Patil",
   alternates: {
-    canonical: "https://tejasfolio.in",
+    canonical: "/",
   },
   openGraph: {
     title: "Tejas Patil | Computer Engineer & Software Developer | Pune",
