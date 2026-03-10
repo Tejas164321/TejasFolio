@@ -20,7 +20,7 @@ const heroContainerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.15, 
+      staggerChildren: 0.15,
     }
   }
 };
@@ -63,8 +63,8 @@ export default function HeroSection() {
       {/* SEO fallback for crawlers that don't execute JavaScript */}
       <noscript>
         <h1>Tejas Patil</h1>
-        <h2>IT Engineer &amp; Software Developer in Pune</h2>
-        <p>Full-Stack Developer | AI &amp; ML Enthusiast | Building Scalable Solutions</p>
+        <h2>Computer Engineer &amp; Software Developer in Pune</h2>
+        <p>Full-Stack Developer | AI &amp; ML Enthusiast | Building Intelligent Scalable Softwares</p>
       </noscript>
       <motion.div
         className="max-w-3xl"
@@ -82,13 +82,13 @@ export default function HeroSection() {
           className="mt-4 font-headline text-xl font-semibold tracking-tight text-primary sm:text-2xl md:text-3xl"
           variants={heroItemVariant}
         >
-          IT Engineer &amp; Software Developer in Pune
+          Computer Engineer &amp; Software Developer in Pune
         </motion.h2>
         <motion.p
           className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg md:text-xl"
           variants={heroItemVariant}
         >
-          Full-Stack Developer | AI &amp; ML Enthusiast | Building Scalable Solutions
+          Full-Stack Developer | AI &amp; ML Enthusiast | Building Intelligent Scalable Softwares
         </motion.p>
         <motion.div
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
