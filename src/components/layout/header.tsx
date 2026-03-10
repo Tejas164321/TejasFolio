@@ -38,11 +38,11 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
-        <Link href="/" className="mr-4 flex items-center space-x-2">
-          <Feather className="h-6 w-6 text-primary" />
+        <Link href="/" className="mr-4 flex items-center space-x-2" aria-label="Home page">
+          <Feather className="h-6 w-6 text-primary" aria-hidden="true" />
           <span className="font-bold">Tejas Patil</span>
         </Link>
-        <nav className="hidden md:flex items-center space-x-1 text-sm font-medium">
+        <nav className="hidden md:flex items-center space-x-1 text-sm font-medium" aria-label="Main navigation">
           {navItems.map((item) => (
             <Link
               key={item.label}
@@ -59,8 +59,8 @@ export default function Header() {
           {mounted && <ThemeToggle />}
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="md:hidden">
-                <Menu className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="md:hidden" aria-label="Open mobile menu">
+                <Menu className="h-5 w-5" aria-hidden="true" />
                 <span className="sr-only">Toggle Menu</span>
               </Button>
             </SheetTrigger>
@@ -68,16 +68,16 @@ export default function Header() {
               <nav className="flex flex-col space-y-4 mt-8">
                 {navItems.map((item) => (
                   <SheetClose asChild key={item.label}>
-                     <Link
-                        href={item.href}
-                        onClick={(e) => scrollToSection(e, item.href)}
-                        className="block px-2 py-1 text-lg transition-colors hover:text-primary"
-                      >
-                        {item.label}
-                      </Link>
+                    <Link
+                      href={item.href}
+                      onClick={(e) => scrollToSection(e, item.href)}
+                      className="block px-2 py-1 text-lg transition-colors hover:text-primary"
+                    >
+                      {item.label}
+                    </Link>
                   </SheetClose>
                 ))}
-                 <SheetClose id="mobile-nav-close" className="hidden"></SheetClose>
+                <SheetClose id="mobile-nav-close" className="hidden"></SheetClose>
               </nav>
             </SheetContent>
           </Sheet>
