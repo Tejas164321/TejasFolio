@@ -204,7 +204,7 @@ export default function ContactSection() {
                   <Link href="https://github.com/Tejas164321" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                     <Github className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
                   </Link>
-                  <Link href="https://www.linkedin.com/in/tejaspatil1643b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <Link href="https://www.linkedin.com/in/tejasin/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <Linkedin className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
                   </Link>
                 </div>

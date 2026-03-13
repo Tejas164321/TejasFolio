@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "Tejas Patil GitHub",
     "tejas164321",
     "Tejas Patil LinkedIn",
-    "tejaspatil1643b",
+    "tejasin",
     "Computer Engineer Pune",
     "Software Developer Pune",
     "Machine Learning Developer India",
@@ -79,7 +79,7 @@ const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Tejas Patil",
-  alternateName: ["TejasPatil", "Tejas164321", "tejaspatil1643b"],
+  alternateName: ["TejasPatil", "Tejas164321", "tejasin"],
   url: "https://tejasfolio.in",
   image: "https://tejasfolio.in/profile.jpg",
   jobTitle: "Computer Engineer and Software Developer",
@@ -112,7 +112,7 @@ const personJsonLd = {
     "RESTful APIs",
   ],
   sameAs: [
-    "https://www.linkedin.com/in/tejaspatil1643b",
+    "https://www.linkedin.com/in/tejasin",
     "https://github.com/Tejas164321",
   ],
 };
