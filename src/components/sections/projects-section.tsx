@@ -10,10 +10,10 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Dairy Nine — Enterprise Supply Chain Platform",
-    role: "Lead Full-Stack & Mobile Developer (Freelance Production)",
+    title: "Dairy Nine (Freelance)",
+    role: "Lead Full-Stack Developer",
     dateRange: "Jan 2025 – Present",
-    description: "Architected and delivered a production-grade freelance platform automating the dairy supply chain. Developed 5+ specialized dashboards and pioneered mobile barcode scanning that eliminated the need for external hardware, driving real-time billing and inventory automation.",
+    description: "Production-grade SaaS platform automating the dairy supply chain. Built multi-role dashboards and camera-based barcode scanning for real-time billing and inventory automation.",
     image: "/project-images/dairy-nine.png?v=refresh",
     imageHint: "dairy supply chain platform dashboard",
     githubLink: "https://github.com/Piyush0930/9dairy-UI",
@@ -24,23 +24,23 @@ const projects = [
     title: "AI Recruiter",
     role: "Lead Developer",
     dateRange: "Sep 2024 – Mar 2025",
-    description: "Built an intelligent talent engine using Gemini NLP for resume analysis and semantic scoring. Implemented secure role-based access in Firestore and reduced manual screening effort by 70% melalui automation workflows.",
+    description: "Built an intelligent talent engine using a hybrid AI approach (Gemini Flash & Local Ollama Qwen) for resume analysis and semantic scoring. Reduced manual screening effort by 70% dengan automated workflows.",
     image: "/project-images/ai-recruiter.png?v=refresh",
     imageHint: "ai recruitment platform interface",
     githubLink: "https://github.com/Tejas164321/AI-Recruiter",
     demoLink: "#",
-    tags: ["Next.js", "Firebase", "Gemini NLP", "AI"]
+    tags: ["Next.js", "Firebase", "Gemini 2.0 Flash", "Ollama", "Qwen", "Hybrid AI"]
   },
   {
     title: "FinPal",
     role: "MERN Stack Developer",
     dateRange: "Feb 2025 – Jun 2025",
-    description: "AI-powered financial dashboard analyzing 1000+ UPI transactions. Developed parsers for PhonePe, GPay, and bank statements with ML-assisted automated expense categorization.",
+    description: "Hybrid AI financial dashboard analyzing 1000+ UPI transactions with Local LLMs (Ollama/Qwen). Developed parsers for PhonePe, GPay, and bank statements with ML-assisted automated expense categorization.",
     image: "/project-images/finpal-analyzer.png?v=refresh",
     imageHint: "financial analyzer dashboard",
     githubLink: "https://github.com/Tejas164321/FinPal",
     demoLink: "#",
-    tags: ["MERN", "AI", "PDF/CSV Parsing", "Finance"]
+    tags: ["MERN", "Gemini Flash", "Ollama", "Qwen", "Hybrid AI", "Automation"]
   },
   {
     title: "MyDinner",
