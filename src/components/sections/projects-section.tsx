@@ -10,59 +10,59 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "AI-Powered Resume Screening & Ranking System",
-    role: "Project Lead",
-    dateRange: "Dec 2023 – May 2024",
-    description: "Built an NLP-based AI system to automate candidate evaluation. Reduced manual screening time by 60%. Achieved 85% accuracy in matching candidates with job descriptions.",
-    image: "/project-images/ai-resume-screening.png?v=refresh",
-    imageHint: "ai resume screening",
-    githubLink: "https://github.com/Tejas164321/AI-Powered-Resume-Parser-Rancker",
+    title: "Dairy Nine — Enterprise Supply Chain Platform",
+    role: "Lead Full-Stack & Mobile Developer (Freelance Production)",
+    dateRange: "Jan 2025 – Present",
+    description: "Architected and delivered a production-grade freelance platform automating the dairy supply chain. Developed 5+ specialized dashboards and pioneered mobile barcode scanning that eliminated the need for external hardware, driving real-time billing and inventory automation.",
+    image: "/project-images/dairy-nine.png?v=refresh",
+    imageHint: "dairy supply chain platform dashboard",
+    githubLink: "https://github.com/Piyush0930/9dairy-UI",
     demoLink: "#",
-    tags: ["AI/ML", "NLP", "Python", "Project Lead"]
+    tags: ["Next.js", "React Native", "MongoDB", "Production", "SaaS"]
   },
   {
-    title: "Personal Expense Manager",
-    role: "MERN Full-Stack Developer",
-    dateRange: "Feb 2025 – Mar 2025",
-    description: "Built a full-stack finance tracker with JWT auth and MongoDB. Managed 100+ users and implemented real-time expense dashboards.",
-    image: "/project-images/expense-manager-mern.png?v=refresh",
-    imageHint: "finance tracker mern",
-    githubLink: "https://github.com/Tejas164321/MyExpenceManager-MERN-",
+    title: "AI Recruiter",
+    role: "Lead Developer",
+    dateRange: "Sep 2024 – Mar 2025",
+    description: "Built an intelligent talent engine using Gemini NLP for resume analysis and semantic scoring. Implemented secure role-based access in Firestore and reduced manual screening effort by 70% melalui automation workflows.",
+    image: "/project-images/ai-recruiter.png?v=refresh",
+    imageHint: "ai recruitment platform interface",
+    githubLink: "https://github.com/Tejas164321/AI-Recruiter",
     demoLink: "#",
-    tags: ["MERN", "MongoDB", "JWT", "Full-Stack"]
+    tags: ["Next.js", "Firebase", "Gemini NLP", "AI"]
   },
   {
-    title: "JavaFX Bus Booking Application",
-    role: "Java Developer",
-    dateRange: "Sep 2024 – Feb 2025",
-    description: "GUI-based booking system using JavaFX + MySQL. Added real-time filtering and secure payment (UPI & Card).",
-    image: "/project-images/bus-booking-javafx.png?v=refresh",
-    imageHint: "bus booking java",
-    githubLink: "https://github.com/Tejas164321/Online-Bus-Booking-Platform",
+    title: "FinPal",
+    role: "MERN Stack Developer",
+    dateRange: "Feb 2025 – Jun 2025",
+    description: "AI-powered financial dashboard analyzing 1000+ UPI transactions. Developed parsers for PhonePe, GPay, and bank statements with ML-assisted automated expense categorization.",
+    image: "/project-images/finpal-analyzer.png?v=refresh",
+    imageHint: "financial analyzer dashboard",
+    githubLink: "https://github.com/Tejas164321/FinPal",
     demoLink: "#",
-    tags: ["JavaFX", "Java", "MySQL", "Desktop App", "UI/UX"]
+    tags: ["MERN", "AI", "PDF/CSV Parsing", "Finance"]
   },
   {
-    title: "Currency Translator Web Application",
-    role: "Web Developer",
-    dateRange: "Jun 2024 – Jul 2024",
-    description: "Responsive currency converter using real-time APIs. Enhanced UX with live exchange rate support.",
-    image: "/project-images/currency-translator-web.png?v=refresh",
-    imageHint: "currency converter api",
-    githubLink: "https://github.com/Tejas164321/currency-translator-app",
+    title: "MyDinner",
+    role: "Frontend & Mobile Developer",
+    dateRange: "Jan 2025 – Aug 2025",
+    description: "Mess operations platform managing meal billing, attendance, and student operations. Built portals with RBAC and a Kotlin Android app for real-time attendance tracking.",
+    image: "/project-images/mydinner-app.png?v=refresh",
+    imageHint: "mess management platform app",
+    githubLink: "https://github.com/Tejas164321/My-Dinner",
     demoLink: "#",
-    tags: ["JavaScript", "HTML/CSS", "API", "Web App"]
+    tags: ["Next.js", "Kotlin", "Firebase", "Android"]
   },
   {
-    title: "Personal Portfolio Website",
-    role: "Full-Stack Developer & AI Integrator",
+    title: "Personal Portfolio",
+    role: "Full-Stack Developer",
     dateRange: "2024 - Present",
-    description: "Designed, developed, and deployed this interactive personal portfolio using Next.js, React, Tailwind CSS, ShadCN UI, and Genkit for the AI-powered contact form. Hosted on Firebase.",
+    description: "Interactive personal portfolio using Next.js, Tailwind CSS, and ShadCN UI. Integrated with GenAI for smart components and hosted on Firebase.",
     image: "/project-images/portfolio-site.png?v=refresh",
-    imageHint: "portfolio design",
-    githubLink: "https://github.com/Tejas164321",
+    imageHint: "tejas patil portfolio site",
+    githubLink: "https://github.com/Tejas164321/TejasFolio",
     demoLink: "#",
-    tags: ["Next.js", "React", "Tailwind CSS", "ShadCN", "Genkit", "Firebase", "Portfolio"]
+    tags: ["Next.js", "React", "Tailwind CSS", "Firebase"]
   },
 ];
 

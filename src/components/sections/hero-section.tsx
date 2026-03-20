@@ -73,22 +73,22 @@ export default function HeroSection() {
         variants={heroContainerVariants}
       >
         <motion.h1
-          className="font-headline text-3xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
+          className="font-headline text-4xl font-bold tracking-tight sm:text-6xl"
           variants={heroItemVariant}
         >
           Tejas Patil
         </motion.h1>
         <motion.h2
-          className="mt-4 font-headline text-xl font-semibold tracking-tight text-primary sm:text-2xl md:text-3xl"
+          className="mt-4 font-headline text-lg font-medium tracking-tight text-primary sm:text-2xl opacity-90"
           variants={heroItemVariant}
         >
-          Computer Engineer &amp; Software Developer in Pune
+          Software Developer | Full-Stack & Mobile Developer | AI/ML Engineer
         </motion.h2>
         <motion.p
-          className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg md:text-xl"
+          className="mt-4 text-base text-muted-foreground sm:text-lg max-w-2xl mx-auto"
           variants={heroItemVariant}
         >
-          Full-Stack Developer | AI &amp; ML Enthusiast | Building Intelligent Scalable Softwares
+          Crafting scalable MERN, Next.js, and AI-powered mobile solutions.
         </motion.p>
         <motion.div
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"

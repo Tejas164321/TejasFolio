@@ -7,11 +7,10 @@ import { motion } from "framer-motion";
 
 const skillCategories = [
   {
-    name: "Programming & Frameworks",
+    name: "Languages",
     icon: <CodeSquare className="h-6 w-6 text-primary mb-2" />,
     skills: [
-      { name: "Python", icon: <Pyramid className="h-10 w-10 text-accent" /> },
-      { name: "Java", icon: <Coffee className="h-10 w-10 text-accent" /> },
+      { name: "Python", icon: <Pipette className="h-10 w-10 text-accent" /> },
       { name: "JavaScript", icon: <FileJson2 className="h-10 w-10 text-accent" /> },
       { name: "TypeScript", icon: <FileJson2 className="h-10 w-10 text-accent" /> },
       { name: "HTML", icon: <CodeXml className="h-10 w-10 text-accent" /> },
@@ -19,61 +18,47 @@ const skillCategories = [
     ],
   },
   {
-    name: "Full-Stack Development",
+    name: "Frameworks & UI",
     icon: <Layers className="h-6 w-6 text-primary mb-2" />,
     skills: [
       { name: "React.js", icon: <Atom className="h-10 w-10 text-accent" /> },
+      { name: "Next.js", icon: <Zap className="h-10 w-10 text-accent" /> },
+      { name: "React Native", icon: <LayoutPanelLeft className="h-10 w-10 text-accent" /> },
       { name: "Node.js", icon: <ServerCog className="h-10 w-10 text-accent" /> },
       { name: "Express.js", icon: <ServerCog className="h-10 w-10 text-accent" /> },
       { name: "MERN Stack", icon: <Code2 className="h-10 w-10 text-accent" /> },
-      { name: "Django", icon: <CodeSquare className="h-10 w-10 text-accent" /> },
-      { name: "Flask", icon: <ServerCog className="h-10 w-10 text-accent" /> },
     ],
   },
   {
-    name: "AI & Data Science",
+    name: "AI/ML & GenAI",
     icon: <Brain className="h-6 w-6 text-primary mb-2" />,
     skills: [
-      { name: "Machine Learning", icon: <Brain className="h-10 w-10 text-accent" /> },
-      { name: "NLP", icon: <MessageCircleCode className="h-10 w-10 text-accent" /> },
-      { name: "TensorFlow", icon: <Share2 className="h-10 w-10 text-accent" /> },
-      { name: "scikit-learn", icon: <Pipette className="h-10 w-10 text-accent" /> },
-      { name: "Genkit", icon: <Zap className="h-10 w-10 text-accent" /> },
+      { name: "NLP / LLMs", icon: <Brain className="h-10 w-10 text-accent" /> },
+      { name: "Generative AI", icon: <Zap className="h-10 w-10 text-accent" /> },
+      { name: "RAG & LangChain", icon: <Network className="h-10 w-10 text-accent" /> },
+      { name: "Agentic AI", icon: <Workflow className="h-10 w-10 text-accent" /> },
+      { name: "Hugging Face", icon: <MessageCircleCode className="h-10 w-10 text-accent" /> },
     ],
   },
   {
-    name: "Databases & APIs",
+    name: "Databases",
     icon: <DatabaseZap className="h-6 w-6 text-primary mb-2" />,
     skills: [
       { name: "MongoDB", icon: <Database className="h-10 w-10 text-accent" /> },
-      { name: "MySQL", icon: <Database className="h-10 w-10 text-accent" /> },
-      { name: "SQL", icon: <Database className="h-10 w-10 text-accent" /> },
-      { name: "PostgreSQL", icon: <Database className="h-10 w-10 text-accent" /> },
-      { name: "Firebase", icon: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><path d="M18.23 7.22a21.62 21.62 0 0 0-6.23-5.22c-.5-.3-1.2-.3-1.72 0a21.62 21.62 0 0 0-6.23 5.22C3.52 7.9 3 8.94 3 10c0 2.76 2.24 5 5 5h8c2.76 0 5-2.24 5-5 0-1.06-.52-2.1-1.07-2.78Z"></path><path d="M3.5 15.5c.84.84 1.68 1.68 2.52 2.52"></path><path d="M10 15c.84.84 1.68 1.68 2.52 2.52"></path><path d="M14.5 15.5c.84.84 1.68 1.68 2.52 2.52"></path></svg> },
-      { name: "REST APIs", icon: <Network className="h-10 w-10 text-accent" /> },
+      { name: "MySQL / SQL", icon: <Database className="h-10 w-10 text-accent" /> },
+      { name: "Firebase", icon: <Cloud className="h-10 w-10 text-accent" /> },
+      { name: "VectorDB", icon: <Pyramid className="h-10 w-10 text-accent" /> },
     ],
   },
   {
-    name: "Cloud Computing",
-    icon: <CloudCog className="h-6 w-6 text-primary mb-2" />,
-    skills: [
-      { name: "Cloud Deployment", icon: <Rocket className="h-10 w-10 text-accent" /> },
-      { name: "CI/CD Pipelines", icon: <Workflow className="h-10 w-10 text-accent" /> },
-      { name: "Docker", icon: <Container className="h-10 w-10 text-accent" /> },
-      { name: "Firebase", icon: <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><path d="M18.23 7.22a21.62 21.62 0 0 0-6.23-5.22c-.5-.3-1.2-.3-1.72 0a21.62 21.62 0 0 0-6.23 5.22C3.52 7.9 3 8.94 3 10c0 2.76 2.24 5 5 5h8c2.76 0 5-2.24 5-5 0-1.06-.52-2.1-1.07-2.78Z"></path><path d="M3.5 15.5c.84.84 1.68 1.68 2.52 2.52"></path><path d="M10 15c.84.84 1.68 1.68 2.52 2.52"></path><path d="M14.5 15.5c.84.84 1.68 1.68 2.52 2.52"></path></svg> },
-      { name: "AWS Basics", icon: <Cloud className="h-10 w-10 text-accent" /> },
-    ],
-  },
-  {
-    name: "Tools",
+    name: "Tools & DevOps",
     icon: <Wrench className="h-6 w-6 text-primary mb-2" />,
     skills: [
       { name: "Git", icon: <GitFork className="h-10 w-10 text-accent" /> },
+      { name: "Docker", icon: <Container className="h-10 w-10 text-accent" /> },
       { name: "Postman", icon: <Send className="h-10 w-10 text-accent" /> },
-      { name: "JavaFX", icon: <LayoutPanelLeft className="h-10 w-10 text-accent" /> },
-      { name: "VS Code", icon: <Code className="h-10 w-10 text-accent" /> },
-      { name: "npm/yarn", icon: <Package className="h-10 w-10 text-accent" /> },
-      { name: "Linux Shell", icon: <TerminalSquare className="h-10 w-10 text-accent" /> },
+      { name: "GitHub Actions", icon: <Rocket className="h-10 w-10 text-accent" /> },
+      { name: "n8n Automation", icon: <Workflow className="h-10 w-10 text-accent" /> },
     ],
   }
 ];

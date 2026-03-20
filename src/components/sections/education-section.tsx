@@ -11,10 +11,10 @@ import { motion } from "framer-motion";
 const educationData = [
   {
     type: "education",
-    title: "Bachelor of Engineering in Computer Engineering",
-    institution: "Savitribai Phule Pune University (Zeal College of Engineering and Research, Pune)",
-    period: "2023 - 2026 (Expected)",
-    description: "Focusing on core computer science principles, software development, and AI/ML.",
+    title: "Bachelor of Engineering (BE) in Computer Engineering",
+    institution: "Savitribai Phule Pune University",
+    period: "August 2022 - Present",
+    description: "Currently pursuing Bachelor of Engineering with a CGPA of 8.9/10. Focusing on core computer science principles, full-stack development, and AI/ML Engineering.",
     icon: <GraduationCap className="h-5 w-5 text-primary" />,
   },
   {

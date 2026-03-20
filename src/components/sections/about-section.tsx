@@ -2,14 +2,14 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Coffee, Code2, Brain, Users } from "lucide-react";
+import { Code2, Brain, Users, Layers, LayoutPanelLeft } from "lucide-react";
 import { motion } from "framer-motion";
 
 const techSkills = [
-  { name: "Java", icon: <Coffee className="h-8 w-8 text-accent" /> },
-  { name: "MERN Stack", icon: <Code2 className="h-8 w-8 text-accent" /> },
+  { name: "Python", icon: <Code2 className="h-8 w-8 text-accent" /> },
+  { name: "MERN Stack", icon: <Layers className="h-8 w-8 text-accent" /> },
   { name: "AI/ML", icon: <Brain className="h-8 w-8 text-accent" /> },
-  { name: "Cloud Computing", icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" /></svg> },
+  { name: "Mobile (React Native)", icon: <LayoutPanelLeft className="h-8 w-8 text-accent" /> },
 ];
 
 const fadeInDown = {
@@ -65,10 +65,10 @@ export default function AboutSection() {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground">
               <p>
-                <strong>Tejas Patil</strong> is a <strong>Computer Engineer</strong> and software developer based in <strong>Pune, India</strong>. Currently pursuing studies at <strong>Savitribai Phule Pune University (SPPU)</strong>, Tejas specializes in full-stack development, machine learning, and building AI-driven systems. With hands-on expertise in Java, Python, and the MERN stack, he builds Intelligent Scalable Softwares that solve real-world problems.
+                <strong>Tejas Patil</strong> is an <strong>Aspiring Software Engineer</strong> and full-stack/mobile developer based in <strong>Pune, India</strong>. Currently a Bachelor of Engineering student at <strong>Savitribai Phule Pune University</strong>, Tejas specializes in building scalable MERN and Next.js applications, AI-powered automation, and optimized REST APIs.
               </p>
               <p>
-                A passionate and dedicated developer, I thrive on the challenge of building scalable applications. My experience extends to AI-driven automation, optimizing database performance, and architecting efficient RESTful APIs. I am deeply committed to solving real-world problems by leveraging robust software engineering and insightful data-driven solutions, always aiming to deliver impactful and user-centric software.
+                A versatile developer, I excel in leveraging technologies like <strong>React Native</strong> for mobile solutions and <strong>Gen AI/LLMs</strong> for intelligent system automation. Currently, I am pioneering a <strong>phone-camera barcode scanning workflow</strong> for real-time billing and automated inventory management, showcasing my commitment to delivering high-impact, hardware-independent solutions.
               </p>
               <h3 className="font-headline text-xl font-semibold flex items-center pt-4">
                 <Users className="mr-2 h-5 w-5 text-primary" />
