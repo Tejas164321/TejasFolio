@@ -56,7 +56,7 @@ export default function AboutSection() {
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-1 gap-8 items-start"
+          className="max-w-6xl mx-auto"
           variants={fadeInUp}
         >
           <Card className="shadow-lg">

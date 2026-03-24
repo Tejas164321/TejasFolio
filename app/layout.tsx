@@ -34,7 +34,9 @@ export const metadata: Metadata = {
     "Software Developer Pune",
     "Machine Learning Developer India",
     "Full Stack Developer Pune",
-    "Building Intelligent Scalable Softwares"
+    "Building Intelligent Scalable Softwares",
+    "Tejas Patil Medium",
+    "tejas164321 medium"
   ],
   authors: [{ name: "Tejas Patil", url: "https://tejasfolio.in" }],
   creator: "Tejas Patil",
@@ -114,6 +116,7 @@ const personJsonLd = {
   sameAs: [
     "https://www.linkedin.com/in/tejasin",
     "https://github.com/Tejas164321",
+    "https://tejas164321.medium.com/",
   ],
 };
 

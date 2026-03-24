@@ -9,7 +9,7 @@
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowDown, Download, ChevronDown } from "lucide-react";
+import { ArrowDown, Download, ChevronDown, Github, Linkedin, BookOpen } from "lucide-react";
 import { motion } from "framer-motion";
 
 /**
@@ -67,7 +67,7 @@ export default function HeroSection() {
         <p>Full-Stack Developer | AI &amp; ML Enthusiast | Building Intelligent Scalable Softwares</p>
       </noscript>
       <motion.div
-        className="max-w-3xl"
+        className="max-w-5xl"
         initial="hidden"
         animate="visible"
         variants={heroContainerVariants}
@@ -85,7 +85,7 @@ export default function HeroSection() {
           Software Developer | Full-Stack & Mobile Developer | AI/ML Engineer
         </motion.h2>
         <motion.p
-          className="mt-4 text-base text-muted-foreground sm:text-lg max-w-2xl mx-auto"
+          className="mt-4 text-base text-muted-foreground sm:text-lg max-w-3xl mx-auto"
           variants={heroItemVariant}
         >
           Crafting scalable MERN, Next.js, and AI-powered mobile solutions.
@@ -112,6 +112,20 @@ export default function HeroSection() {
               Download Resume
               <Download className="ml-2 h-5 w-5" />
             </Button>
+          </Link>
+        </motion.div>
+        <motion.div
+          className="mt-12 flex items-center justify-center gap-6"
+          variants={heroItemVariant}
+        >
+          <Link href="https://github.com/Tejas164321" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110">
+            <Github className="h-6 w-6" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/tejasin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110">
+            <Linkedin className="h-6 w-6" />
+          </Link>
+          <Link href="https://tejas164321.medium.com/" target="_blank" rel="noopener noreferrer" aria-label="Medium" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110">
+            <BookOpen className="h-6 w-6" />
           </Link>
         </motion.div>
       </motion.div>

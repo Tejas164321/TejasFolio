@@ -11,9 +11,16 @@ export default {
     container: {
       center: true,
       padding: {
-        DEFAULT: '1rem',    // 16px
-        sm: '2rem',         // 32px
-        lg: '3rem',         // 48px
+        DEFAULT: '1rem',     // 16px
+        sm: '1.5rem',        // 24px
+        lg: '2rem',          // 32px
+      },
+      screens: {
+        sm: '100%',
+        md: '100%',
+        lg: '1024px',
+        xl: '1440px',
+        '2xl': '1800px',
       },
     },
     extend: {
