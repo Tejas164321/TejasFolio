@@ -75,6 +75,9 @@ export const metadata: Metadata = {
     // Add your Google Search Console verification code here
     // google: "your-google-verification-code",
   },
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 const personJsonLd = {
