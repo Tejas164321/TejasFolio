@@ -11,19 +11,26 @@ export default {
     container: {
       center: true,
       padding: {
-        DEFAULT: '1rem',     // 16px
-        sm: '1.5rem',        // 24px
-        lg: '2rem',          // 32px
+        DEFAULT: '1rem',
+        sm: '1.5rem',
+        lg: '2rem',
       },
       screens: {
         sm: '100%',
         md: '100%',
         lg: '1024px',
-        xl: '1440px',
-        '2xl': '1800px',
+        xl: '1280px',
+        '2xl': '1536px',
+        '3xl': '1720px',
+        '4xl': '1920px',
+        '5xl': '2200px',
       },
     },
     extend: {
+      screens: {
+        '3xl': '1920px',
+        '4xl': '2560px',
+      },
       fontFamily: {
         body: ['Inter', 'sans-serif'],
         headline: ['Inter', 'sans-serif'],

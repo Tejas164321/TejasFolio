@@ -56,7 +56,7 @@ export default function AboutSection() {
         </motion.div>
 
         <motion.div
-          className="max-w-6xl mx-auto"
+          className="max-w-7xl 2xl:max-w-screen-2xl mx-auto"
           variants={fadeInUp}
         >
           <Card className="shadow-lg">
