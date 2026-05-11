@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const techSkills = [
   { name: "Python", icon: <Code2 className="h-8 w-8 text-accent" /> },
-  { name: "MERN Stack", icon: <Layers className="h-8 w-8 text-accent" /> },
+  { name: "MERN & Full-Stack Development", icon: <Layers className="h-8 w-8 text-accent" /> },
   { name: "AI/ML", icon: <Brain className="h-8 w-8 text-accent" /> },
   { name: "Mobile (React Native)", icon: <LayoutPanelLeft className="h-8 w-8 text-accent" /> },
 ];
@@ -51,7 +51,7 @@ export default function AboutSection() {
           <p
             className="mt-4 text-lg text-muted-foreground"
           >
-            Computer Engineer. Driven by passion and a thirst for knowledge. Located in Pune, India.
+            Computer Engineer and full-stack developer focused on building reliable, user-centric software from Pune, India.
           </p>
         </motion.div>
 
@@ -65,17 +65,17 @@ export default function AboutSection() {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground">
               <p>
-                <strong>Tejas Patil</strong> is an <strong>Aspiring Software Engineer</strong> and full-stack/mobile developer based in <strong>Pune, India</strong>. Currently a Bachelor of Engineering student at <strong>Savitribai Phule Pune University</strong>, Tejas specializes in building scalable MERN and Next.js applications, AI-powered automation, and optimized REST APIs.
+                I am a Computer Engineering student at <strong>Savitribai Phule Pune University</strong> and a full-stack/mobile developer based in <strong>Pune, India</strong>. My work centers on scalable MERN and Next.js applications, AI-powered automation, and efficient REST APIs.
               </p>
               <p>
-                A versatile developer, I excel in leveraging technologies like <strong>React Native</strong> for mobile solutions and <strong>Gen AI/LLMs</strong> for intelligent system automation. Currently, I am pioneering a <strong>phone-camera barcode scanning workflow</strong> for real-time billing and automated inventory management, showcasing my commitment to delivering high-impact, hardware-independent solutions.
+                I build practical products with <strong>React Native</strong> and <strong>Gen AI/LLMs</strong>, including a phone-camera barcode workflow for real-time billing and automated inventory management.
               </p>
               <h3 className="font-headline text-xl font-semibold flex items-center pt-4">
                 <Users className="mr-2 h-5 w-5 text-primary" />
                 Team Collaboration
               </h3>
               <p>
-                Proven expertise in dynamic team collaboration and coordination, demonstrated through successful participation in SIH and GFG hackathons. I excel at working closely with diverse teams, ensuring clear communication, efficient task distribution, and seamless integration of ideas. This collaborative approach drives innovative, high-quality solutions delivered within tight deadlines and high-pressure environments.
+                I collaborate effectively in fast-paced teams, with hands-on experience from SIH and GFG hackathons. I focus on clear communication, ownership, and delivering high-quality outcomes under tight deadlines.
               </p>
             </CardContent>
           </Card>

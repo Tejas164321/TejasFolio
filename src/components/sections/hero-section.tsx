@@ -88,7 +88,7 @@ export default function HeroSection() {
           className="mt-4 text-base text-muted-foreground sm:text-lg max-w-3xl mx-auto"
           variants={heroItemVariant}
         >
-          Crafting scalable MERN, Next.js, and AI-powered mobile solutions.
+          Building production-ready MERN, Next.js, and AI-powered full-stack applications.
         </motion.p>
         <motion.div
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
