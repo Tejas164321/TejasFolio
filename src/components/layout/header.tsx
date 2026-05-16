@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Menu, Feather } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { useState, useEffect } from 'react';
 
@@ -66,6 +66,10 @@ export default function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+              <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+              <SheetDescription className="sr-only">
+                Access sections of the portfolio including About, Projects, and Contact.
+              </SheetDescription>
               <nav className="flex flex-col space-y-4 mt-8">
                 {navItems.map((item) => (
                   <SheetClose asChild key={item.label}>
