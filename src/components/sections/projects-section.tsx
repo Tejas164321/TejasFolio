@@ -51,7 +51,7 @@ const projects = [
     imageHint: "mess management platform app",
     githubLink: "https://github.com/Tejas164321/My-Dinner",
     demoLink: "#",
-    tags: ["Next.js", "Firebase", "Cloud Functions"]
+    tags: ["Next.js", "Firebase", "Firestore", "Cloud Functions", "RBAC", "React"]
   },
   {
     title: "Personal Portfolio",
