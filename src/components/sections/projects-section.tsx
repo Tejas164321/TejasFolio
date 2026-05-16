@@ -46,12 +46,12 @@ const projects = [
     title: "MyDinner",
     role: "Full-Stack Developer (Firebase)",
     dateRange: "Jan 2025 – Aug 2025",
-    description: "Mess operations platform with a fully Firebase-powered backend — Auth, Firestore, and Cloud Functions for billing, meal attendance, and student management. Built role-based portals and a Kotlin Android app for real-time tracking.",
+    description: "Mess operations platform with a fully Firebase-powered backend — Auth, Firestore, and Cloud Functions for billing, meal attendance, and student management. Built role-based portals in Next.js for real-time tracking.",
     image: "/project-images/mydinner-app.png?v=refresh",
     imageHint: "mess management platform app",
     githubLink: "https://github.com/Tejas164321/My-Dinner",
     demoLink: "#",
-    tags: ["Next.js", "Kotlin", "Firebase", "Cloud Functions", "Android"]
+    tags: ["Next.js", "Firebase", "Cloud Functions"]
   },
   {
     title: "Personal Portfolio",
