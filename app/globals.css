@@ -110,7 +110,6 @@ body {
 
   body {
     @apply bg-background text-foreground;
-    scroll-behavior: smooth;
   }
 
   section {
@@ -123,29 +122,22 @@ body {
     max-width: 100vw;
   }
 
-  /* Better touch tap target sizing for mobile */
-  button, a {
-    min-height: 40px;
-  }
-
-  /* Ensure sticky elements work as expected and scrolling is smooth */
+  /* Ensure sticky elements work as expected */
   html {
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
   }
 }
 
 @keyframes fadeInPage {
   from {
     opacity: 0;
-    transform: translateY(10px);
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
 .animate-fadeInPage {
-  animation: fadeInPage 0.5s ease-out forwards;
+  animation: fadeInPage 0.4s ease-out forwards;
 }

@@ -125,7 +125,8 @@ export default function ProjectsSection() {
                   height={400}
                   className="object-cover w-full h-40 sm:h-48"
                   data-ai-hint={project.imageHint}
-                  priority={projects.indexOf(project) < 3} 
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  priority={projects.indexOf(project) === 0}
                 />
               </CardHeader>
               <CardContent className="flex-grow p-6 space-y-3">

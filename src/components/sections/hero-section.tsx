@@ -20,7 +20,7 @@ const heroContainerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.15,
+      staggerChildren: 0.1,
     }
   }
 };
@@ -30,7 +30,7 @@ const heroContainerVariants = {
  */
 const heroItemVariant = {
   hidden: { opacity: 0, y: -20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: "easeOut" } }
+  visible: { opacity: 1, y: 0, transition: { duration: 0.35, ease: "easeOut" } }
 };
 
 /**
@@ -84,12 +84,12 @@ export default function HeroSection() {
         >
           Software Developer&nbsp;|&nbsp;Full-Stack Developer&nbsp;|&nbsp;Gen&nbsp;AI&nbsp;Powered&nbsp;Applications
         </motion.h2>
-        <motion.p
+        {/* LCP element: rendered as static HTML immediately — no motion delay */}
+        <p
           className="mt-4 text-sm text-muted-foreground sm:text-base md:text-lg max-w-2xl mx-auto px-2 leading-relaxed"
-          variants={heroItemVariant}
         >
           Building production-ready MERN, Next.js, and Gen AI powered full-stack applications.
-        </motion.p>
+        </p>
 
         {/* CTA Buttons */}
         <motion.div
