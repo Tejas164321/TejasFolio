@@ -82,7 +82,7 @@ export default function HeroSection() {
           className="mt-4 font-headline text-lg font-medium tracking-tight text-primary sm:text-2xl opacity-90"
           variants={heroItemVariant}
         >
-          Software Developer | Full-Stack & Mobile Developer | Gen AI Powered Applications
+          Software Developer | Full-Stack Developer | Gen AI Powered Applications
         </motion.h2>
         <motion.p
           className="mt-4 text-base text-muted-foreground sm:text-lg max-w-3xl mx-auto"
