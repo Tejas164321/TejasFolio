@@ -64,7 +64,7 @@ export default function HeroSection() {
       <noscript>
         <h1>Tejas Patil</h1>
         <h2>Computer Engineer &amp; Software Developer in Pune</h2>
-        <p>Full-Stack Developer | AI &amp; ML Enthusiast | Building Intelligent Scalable Softwares</p>
+        <p>Full-Stack Developer | Gen AI Enthusiast | Building Gen AI Powered Applications</p>
       </noscript>
       <motion.div
         className="max-w-5xl"
@@ -82,13 +82,13 @@ export default function HeroSection() {
           className="mt-4 font-headline text-lg font-medium tracking-tight text-primary sm:text-2xl opacity-90"
           variants={heroItemVariant}
         >
-          Software Developer | Full-Stack & Mobile Developer | AI/ML Engineer
+          Software Developer | Full-Stack & Mobile Developer | Gen AI Powered Applications
         </motion.h2>
         <motion.p
           className="mt-4 text-base text-muted-foreground sm:text-lg max-w-3xl mx-auto"
           variants={heroItemVariant}
         >
-          Building production-ready MERN, Next.js, and AI-powered full-stack applications.
+          Building production-ready MERN, Next.js, and Gen AI powered full-stack applications.
         </motion.p>
         <motion.div
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
