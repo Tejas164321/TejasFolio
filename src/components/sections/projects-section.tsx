@@ -28,7 +28,7 @@ const projects = [
     image: "/project-images/ai-recruiter.png?v=refresh",
     imageHint: "ai recruitment platform interface",
     githubLink: "https://github.com/Tejas164321/AI-Recruiter",
-    demoLink: "#",
+    demoLink: "https://airecruiter.tejasfolio.in/",
     tags: ["Next.js", "Firebase", "Gemini 2.0 Flash", "Ollama", "Qwen", "Hybrid AI"]
   },
   {
@@ -39,7 +39,7 @@ const projects = [
     image: "/project-images/finpal-analyzer.png?v=refresh",
     imageHint: "financial analyzer dashboard",
     githubLink: "https://github.com/Tejas164321/FinPal",
-    demoLink: "#",
+    demoLink: "https://finpal.tejasfolio.in/",
     tags: ["MERN", "Gemini Flash", "Ollama", "Qwen", "Hybrid AI", "Automation"]
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     image: "/project-images/mydinner-app.png?v=refresh",
     imageHint: "mess management platform app",
     githubLink: "https://github.com/Tejas164321/My-Dinner",
-    demoLink: "#",
+    demoLink: "https://mydinner.tejasfolio.in/",
     tags: ["Next.js", "Firebase", "Firestore", "Cloud Functions", "RBAC", "React"]
   },
   {
@@ -61,7 +61,7 @@ const projects = [
     image: "/project-images/portfolio-site.png?v=refresh",
     imageHint: "tejas patil portfolio site",
     githubLink: "https://github.com/Tejas164321/TejasFolio",
-    demoLink: "#",
+    demoLink: "https://tejasfolio.in/",
     tags: ["Next.js", "React", "Tailwind CSS", "Firebase"]
   },
 ];
