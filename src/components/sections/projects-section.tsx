@@ -33,7 +33,7 @@ const projects = [
   },
   {
     title: "FinPal",
-    role: "MERN Stack Developer",
+    role: "Full-Stack Developer",
     dateRange: "Feb 2025 – Jun 2025",
     description: "Hybrid AI financial dashboard analyzing 1000+ UPI transactions with Local LLMs (Ollama/Qwen). Developed parsers for PhonePe, GPay, and bank statements with ML-assisted automated expense categorization.",
     image: "/project-images/finpal-analyzer.png?v=refresh",
@@ -44,14 +44,14 @@ const projects = [
   },
   {
     title: "MyDinner",
-    role: "Frontend & Mobile Developer",
+    role: "Full-Stack Developer (Firebase)",
     dateRange: "Jan 2025 – Aug 2025",
-    description: "Mess operations platform managing meal billing, attendance, and student operations. Built portals with RBAC and a Kotlin Android app for real-time attendance tracking.",
+    description: "Mess operations platform with a fully Firebase-powered backend — Auth, Firestore, and Cloud Functions for billing, meal attendance, and student management. Built role-based portals and a Kotlin Android app for real-time tracking.",
     image: "/project-images/mydinner-app.png?v=refresh",
     imageHint: "mess management platform app",
     githubLink: "https://github.com/Tejas164321/My-Dinner",
     demoLink: "#",
-    tags: ["Next.js", "Kotlin", "Firebase", "Android"]
+    tags: ["Next.js", "Kotlin", "Firebase", "Cloud Functions", "Android"]
   },
   {
     title: "Personal Portfolio",
