@@ -397,10 +397,28 @@ export default function RootLayout({
   return (
     <html lang="en" dir="ltr" suppressHydrationWarning>
       <head>
-        {/* ── Fonts ── */}
+        {/* ── Fonts — Non-blocking async load to eliminate render-blocking ── */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+        {/* Load font CSS async: media=print swaps to all after load to avoid blocking FCP/LCP */}
+        <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          as="style"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+          media="print"
+          // @ts-expect-error onload string is valid HTML but not typed in React
+          onLoad="this.media='all'"
+        />
+        <noscript>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+          />
+        </noscript>
 
         {/* ── Favicon ── */}
         <link rel="icon" href="/favicon.png" type="image/png" sizes="any" />
