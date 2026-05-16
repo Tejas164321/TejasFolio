@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 const techSkills = [
   { name: "Python", icon: <Code2 className="h-8 w-8 text-accent" /> },
-  { name: "MERN & Full-Stack Development", icon: <Layers className="h-8 w-8 text-accent" /> },
-  { name: "AI/ML", icon: <Brain className="h-8 w-8 text-accent" /> },
+  { name: "Full-Stack Development", icon: <Layers className="h-8 w-8 text-accent" /> },
+  { name: "Gen AI", icon: <Brain className="h-8 w-8 text-accent" /> },
   { name: "Mobile (React Native)", icon: <LayoutPanelLeft className="h-8 w-8 text-accent" /> },
 ];
 
