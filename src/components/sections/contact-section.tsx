@@ -97,7 +97,7 @@ export default function ContactSection() {
           <p
             className="mt-4 text-base md:text-lg text-muted-foreground"
           >
-            Have a project in mind or just want to say hi? Feel free to reach out.
+            Always open to new opportunities and collaborations. Let&apos;s connect and build something exceptional together.
           </p>
         </motion.div>
 
