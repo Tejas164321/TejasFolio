@@ -63,7 +63,7 @@ export default function HeroSection() {
       {/* SEO fallback for crawlers that don't execute JavaScript */}
       <noscript>
         <h1>Tejas Patil</h1>
-        <h2>Computer Engineer &amp; Software Developer in Pune</h2>
+        <h2>Software Developer in Pune</h2>
         <p>Full-Stack Developer | Gen AI Enthusiast | Building Gen AI Powered Applications</p>
       </noscript>
       <motion.div

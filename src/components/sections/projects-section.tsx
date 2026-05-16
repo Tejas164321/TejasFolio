@@ -24,7 +24,7 @@ const projects = [
     title: "AI Recruiter",
     role: "Lead Developer",
     dateRange: "Sep 2024 – Mar 2025",
-    description: "Built an intelligent talent engine using a hybrid AI approach (Gemini Flash & Local Ollama Qwen) for resume analysis and semantic scoring. Reduced manual screening effort by 70% dengan automated workflows.",
+    description: "Built an intelligent talent engine using a hybrid AI approach (Gemini Flash & Local Ollama Qwen) for resume analysis and semantic scoring. Reduced manual screening effort by 70% with automated workflows.",
     image: "/project-images/ai-recruiter.png?v=refresh",
     imageHint: "ai recruitment platform interface",
     githubLink: "https://github.com/Tejas164321/AI-Recruiter",
