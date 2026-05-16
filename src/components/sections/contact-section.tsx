@@ -90,18 +90,18 @@ export default function ContactSection() {
           className="text-center mb-12"
         >
           <h2
-            className="font-headline text-4xl font-bold tracking-tight sm:text-5xl"
+            className="font-headline text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl"
           >
             Get In Touch
           </h2>
           <p
-            className="mt-4 text-lg text-muted-foreground"
+            className="mt-4 text-base md:text-lg text-muted-foreground"
           >
             Have a project in mind or just want to say hi? Feel free to reach out.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <motion.div
             initial="hidden"
             whileInView="visible"

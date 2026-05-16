@@ -58,7 +58,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="container flex flex-col items-center justify-center text-center min-h-[70vh] md:min-h-[calc(100vh-56px)] py-12 md:py-24 overflow-hidden relative"
+      className="container flex flex-col items-center justify-center text-center min-h-[85vh] md:min-h-[calc(100vh-56px)] py-16 md:py-24 px-4 sm:px-6 overflow-hidden relative"
     >
       {/* SEO fallback for crawlers that don't execute JavaScript */}
       <noscript>
@@ -67,86 +67,86 @@ export default function HeroSection() {
         <p>Full-Stack Developer | Gen AI Enthusiast | Building Gen AI Powered Applications</p>
       </noscript>
       <motion.div
-        className="max-w-5xl"
+        className="w-full max-w-5xl"
         initial="hidden"
         animate="visible"
         variants={heroContainerVariants}
       >
         <motion.h1
-          className="font-headline text-4xl font-bold tracking-tight sm:text-6xl"
+          className="font-headline text-3xl font-bold tracking-tight xs:text-4xl sm:text-5xl md:text-6xl"
           variants={heroItemVariant}
         >
           Tejas Patil
         </motion.h1>
         <motion.h2
-          className="mt-4 font-headline text-lg font-medium tracking-tight text-primary sm:text-2xl opacity-90"
+          className="mt-3 font-headline text-sm font-medium tracking-tight text-primary xs:text-base sm:text-xl md:text-2xl opacity-90 leading-snug px-2"
           variants={heroItemVariant}
         >
-          Software Developer | Full-Stack Developer | Gen AI Powered Applications
+          Software Developer&nbsp;|&nbsp;Full-Stack Developer&nbsp;|&nbsp;Gen&nbsp;AI&nbsp;Powered&nbsp;Applications
         </motion.h2>
         <motion.p
-          className="mt-4 text-base text-muted-foreground sm:text-lg max-w-3xl mx-auto"
+          className="mt-4 text-sm text-muted-foreground sm:text-base md:text-lg max-w-2xl mx-auto px-2 leading-relaxed"
           variants={heroItemVariant}
         >
           Building production-ready MERN, Next.js, and Gen AI powered full-stack applications.
         </motion.p>
+
+        {/* CTA Buttons */}
         <motion.div
-          className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
+          className="mt-8 flex flex-col items-center justify-center gap-3 w-full max-w-xs mx-auto sm:max-w-none sm:flex-row sm:gap-4"
           variants={heroButtonsVariant}
         >
-          <Link href="#projects" onClick={(e) => scrollToSection(e, "projects")}>
+          <Link href="#projects" onClick={(e) => scrollToSection(e, "projects")} className="w-full sm:w-auto">
             <Button
               size="lg"
-              className="w-full sm:w-auto transition-all duration-300 ease-in-out hover:scale-105 hover:brightness-110"
+              className="w-full sm:w-auto transition-all duration-300 ease-in-out hover:scale-105 hover:brightness-110 text-sm sm:text-base"
             >
               View My Work
-              <ArrowDown className="ml-2 h-5 w-5" />
+              <ArrowDown className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
           </Link>
-          <Link href="/resume/Tejas-Patil-Resume.pdf" download="Tejas-Patil-Resume.pdf">
+          <Link href="/resume/Tejas-Patil-Resume.pdf" download="Tejas-Patil-Resume.pdf" className="w-full sm:w-auto">
             <Button
               variant="outline"
               size="lg"
-              className="w-full sm:w-auto transition-all duration-300 ease-in-out hover:scale-105 hover:brightness-110"
+              className="w-full sm:w-auto transition-all duration-300 ease-in-out hover:scale-105 hover:brightness-110 text-sm sm:text-base"
             >
               Download Resume
-              <Download className="ml-2 h-5 w-5" />
+              <Download className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
           </Link>
         </motion.div>
+
+        {/* Social Icons */}
         <motion.div
-          className="mt-12 flex items-center justify-center gap-6"
+          className="mt-10 flex items-center justify-center gap-8"
           variants={heroItemVariant}
         >
-          <Link href="https://github.com/Tejas164321" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110">
-            <Github className="h-6 w-6" />
+          <Link href="https://github.com/Tejas164321" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+            className="p-2 rounded-full text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:bg-primary/10">
+            <Github className="h-6 w-6 sm:h-7 sm:w-7" />
           </Link>
-          <Link href="https://www.linkedin.com/in/tejasin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110">
-            <Linkedin className="h-6 w-6" />
+          <Link href="https://www.linkedin.com/in/tejasin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+            className="p-2 rounded-full text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:bg-primary/10">
+            <Linkedin className="h-6 w-6 sm:h-7 sm:w-7" />
           </Link>
-          <Link href="https://tejas164321.medium.com/" target="_blank" rel="noopener noreferrer" aria-label="Medium" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110">
-            <BookOpen className="h-6 w-6" />
+          <Link href="https://tejas164321.medium.com/" target="_blank" rel="noopener noreferrer" aria-label="Medium"
+            className="p-2 rounded-full text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:bg-primary/10">
+            <BookOpen className="h-6 w-6 sm:h-7 sm:w-7" />
           </Link>
         </motion.div>
       </motion.div>
+
+      {/* Scroll Down Indicator */}
       <motion.div
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-6 left-1/2 transform -translate-x-1/2 hidden sm:block"
         animate={{ y: [0, 8, 0] }}
-        transition={{
-          duration: 1.5,
-          repeat: Infinity,
-          repeatType: "loop",
-          ease: "easeInOut",
-        }}
+        transition={{ duration: 1.5, repeat: Infinity, repeatType: "loop", ease: "easeInOut" }}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: false }}
       >
-        <Link
-          href="#about"
-          onClick={(e) => scrollToSection(e, "about")}
-          aria-label="Scroll to about section"
-        >
+        <Link href="#about" onClick={(e) => scrollToSection(e, "about")} aria-label="Scroll to about section">
           <ChevronDown className="h-8 w-8 text-primary cursor-pointer hover:text-primary/80 transition-colors" />
         </Link>
       </motion.div>

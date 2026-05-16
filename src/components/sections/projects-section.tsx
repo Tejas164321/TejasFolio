@@ -97,18 +97,18 @@ export default function ProjectsSection() {
         className="text-center mb-12"
       >
         <h2
-          className="font-headline text-4xl font-bold tracking-tight sm:text-5xl"
+          className="font-headline text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl"
         >
           My Projects
         </h2>
         <p
-          className="mt-4 text-lg text-muted-foreground"
+          className="mt-4 text-base md:text-lg text-muted-foreground"
         >
           A selection of projects I've worked on, showcasing my skills and passion.
         </p>
       </motion.div>
       <motion.div
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-8 md:gap-10"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6 md:gap-8 lg:gap-10"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -123,21 +123,21 @@ export default function ProjectsSection() {
                   alt={project.title}
                   width={600}
                   height={400}
-                  className="object-cover w-full h-48"
+                  className="object-cover w-full h-40 sm:h-48"
                   data-ai-hint={project.imageHint}
                   priority={projects.indexOf(project) < 3} 
                 />
               </CardHeader>
               <CardContent className="flex-grow p-6 space-y-3">
-                <CardTitle className="font-headline text-xl">{project.title} ({project.role})</CardTitle>
+                <CardTitle className="font-headline text-base sm:text-lg md:text-xl leading-snug">{project.title} ({project.role})</CardTitle>
                 <div className="flex items-center text-xs text-muted-foreground pt-1">
                   <CalendarDays className="h-4 w-4 mr-1.5" />
                   <span>{project.dateRange}</span>
                 </div>
                 <CardDescription>{project.description}</CardDescription>
-                <div className="flex flex-wrap gap-2 pt-2">
+                <div className="flex flex-wrap gap-1.5 pt-2">
                   {project.tags.map(tag => (
-                    <span key={tag} className="text-xs bg-accent/20 text-accent-foreground dark:text-accent px-2 py-1 rounded-full">{tag}</span>
+                    <span key={tag} className="text-xs bg-accent/20 text-accent-foreground dark:text-accent px-2 py-0.5 rounded-full">{tag}</span>
                   ))}
                 </div>
               </CardContent>

@@ -70,11 +70,11 @@ export default function ExperienceSection() {
   return (
     <section id="experience" className="bg-background py-16 md:py-24 overflow-hidden">
       <div className="container">
-        <div className="text-center mb-16">
-          <h2 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
             Professional Timeline
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-base md:text-lg text-muted-foreground">
             My journey through corporate exposure and industrial software development.
           </p>
         </div>
@@ -109,9 +109,9 @@ export default function ExperienceSection() {
                   
                   {/* Content Container */}
                   <div className={`w-full md:w-1/2 md:px-6 lg:px-8`}>
-                    {/* Mobile vertical line element */}
-                    <div className="md:hidden h-8 relative"> 
-                      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-border"></div>
+                  {/* Mobile-only: simple top connector */}
+                    <div className="md:hidden h-6 relative mb-2"> 
+                      <div className="absolute top-0 left-4 w-0.5 h-full bg-border"></div>
                     </div>
                     
                     <Card className="w-full shadow-lg bg-card transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1 hover:scale-[1.01]">

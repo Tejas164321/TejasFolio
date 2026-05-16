@@ -4,6 +4,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  /* Prevent horizontal overflow on mobile */
+  overflow-x: hidden;
 }
 
 @layer base {
@@ -112,7 +114,18 @@ body {
   }
 
   section {
-    @apply py-16 md:py-24;
+    @apply py-12 md:py-24;
+  }
+
+  /* Prevent horizontal scroll on all mobile viewports */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  /* Better touch tap target sizing for mobile */
+  button, a {
+    min-height: 40px;
   }
 
   /* Ensure sticky elements work as expected and scrolling is smooth */
