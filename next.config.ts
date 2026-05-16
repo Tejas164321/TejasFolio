@@ -39,6 +39,12 @@ const nextConfig: NextConfig = {
     // Tree-shake Radix UI packages to reduce unused JS bundle
     optimizePackageImports: ['lucide-react', 'framer-motion', '@radix-ui/react-dialog'],
   },
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      config.externals.push('@opentelemetry/exporter-jaeger', '@opentelemetry/otlp-exporter-base');
+    }
+    return config;
+  },
   async headers() {
     return [
       {
