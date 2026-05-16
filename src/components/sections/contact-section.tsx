@@ -97,7 +97,7 @@ export default function ContactSection() {
           <p
             className="mt-4 text-base md:text-lg text-muted-foreground"
           >
-            Always open to new opportunities and collaborations. Let&apos;s connect and build something exceptional together.
+            Ready for new opportunities. Let&apos;s build something exceptional together.
           </p>
         </motion.div>
 
