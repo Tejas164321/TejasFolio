@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -15,6 +16,30 @@ const navItems = [
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.2,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, x: 20 },
+  visible: { 
+    opacity: 1, 
+    x: 0,
+    transition: {
+      type: "spring",
+      stiffness: 300,
+      damping: 24
+    }
+  },
+};
 
 export default function Header() {
   const [mounted, setMounted] = useState(false);
@@ -70,18 +95,28 @@ export default function Header() {
               <SheetDescription className="sr-only">
                 Access sections of the portfolio including About, Projects, and Contact.
               </SheetDescription>
-              <nav className="flex flex-col space-y-4 mt-8">
-                {navItems.map((item) => (
-                  <SheetClose asChild key={item.label}>
-                    <Link
-                      href={item.href}
-                      onClick={(e) => scrollToSection(e, item.href)}
-                      className="block px-2 py-1 text-lg transition-colors hover:text-primary"
-                    >
-                      {item.label}
-                    </Link>
-                  </SheetClose>
-                ))}
+              <nav className="flex flex-col space-y-4 mt-12">
+                <motion.div
+                  variants={containerVariants}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: false }}
+                  className="flex flex-col space-y-4"
+                >
+                  {navItems.map((item) => (
+                    <motion.div key={item.label} variants={itemVariants}>
+                      <SheetClose asChild>
+                        <Link
+                          href={item.href}
+                          onClick={(e) => scrollToSection(e, item.href)}
+                          className="block px-4 py-3 text-xl font-medium transition-colors hover:text-primary rounded-xl hover:bg-primary/5 active:scale-95 transition-all"
+                        >
+                          {item.label}
+                        </Link>
+                      </SheetClose>
+                    </motion.div>
+                  ))}
+                </motion.div>
                 <SheetClose id="mobile-nav-close" className="hidden"></SheetClose>
               </nav>
             </SheetContent>
