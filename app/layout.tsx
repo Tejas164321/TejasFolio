@@ -194,7 +194,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    // google: "your-google-search-console-verification-code",
+    google: "ghoVXXpqbHvrld0Eyy8dOpIXJlCJLP21U57ZXXSTicM",
     // bing: "your-bing-webmaster-verification-code",
   },
   icons: {
@@ -222,6 +222,10 @@ const personJsonLd = {
     "tejasin",
     "TejasFolio",
     "164321",
+    "Tejas Patil Pune",
+    "Tejas Patil Developer",
+    "Tejas Patil Savitribai Phule Pune University",
+    "TejasFolio Portfolio",
   ],
   url: BASE_URL,
   image: {
@@ -280,6 +284,19 @@ const personJsonLd = {
     "LLM Integration",
     "TypeScript",
     "JavaScript",
+    "Move Language",
+    "Sui Blockchain",
+    "Alkimi MoveFWD",
+    "Smart India Hackathon",
+    "GeeksforGeeks",
+    "Next.js Developer",
+    "MERN Developer",
+    "Firebase Cloud Functions",
+  ],
+  knowsLanguage: [
+    { "@type": "Language", name: "English", alternateName: "en" },
+    { "@type": "Language", name: "Hindi", alternateName: "hi" },
+    { "@type": "Language", name: "Marathi", alternateName: "mr" },
   ],
   sameAs: [
     "https://www.linkedin.com/in/tejasin",
@@ -396,6 +413,159 @@ const projectsJsonLd = {
   ],
 };
 
+// ─── JSON-LD: FAQPage (SEO Questions & Answers) ───────────────────────────────
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${BASE_URL}/#faqpage`,
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Who is Tejas Patil?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tejas Patil is a Software Developer based in Pune, India, specializing in building production-grade Full Stack (MERN, Next.js) and Generative AI-powered applications."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is TejasFolio?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "TejasFolio (tejasfolio.in) is the official portfolio and professional showcase website of Tejas Patil. It hosts detailed information on his software projects, technical skills, certifications, and academic background."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is the official website of Tejas Patil?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The official website of Tejas Patil is tejasfolio.in (TejasFolio). It serves as his professional portfolio site showcasing live project demos, credentials, and full-stack software development work."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "Where is software developer Tejas Patil based?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Software developer Tejas Patil is based in Pune, Maharashtra, India. He is pursuing his Bachelor of Engineering (BE) in Computer Engineering at Savitribai Phule Pune University (SPPU)."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What software projects has Tejas Patil built?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tejas Patil has built several notable software projects including: AI Recruiter (a talent screening engine at airecruiter.tejasfolio.in), FinPal (an AI financial dashboard at finpal.tejasfolio.in), MyDinner (a mess management platform at mydinner.tejasfolio.in), and Dairy Nine (a dairy supply chain automation SaaS)."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is the Dairy Nine project by Tejas Patil?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Dairy Nine is a production-grade SaaS freelance project developed by Tejas Patil as Lead Full-Stack Developer. It automates the dairy supply chain with multi-role dashboards and camera-based barcode scanning for real-time inventory and billing. It is built with Next.js, React Native, and MongoDB."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is the AI Recruiter project by Tejas Patil?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "AI Recruiter (airecruiter.tejasfolio.in) is an AI-powered talent screening platform created by Tejas Patil. It uses a hybrid AI approach combining Gemini Flash and local Ollama Qwen models to automate resume parsing and candidate scoring. The source code is hosted on GitHub at github.com/Tejas164321/AI-Recruiter."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is the FinPal financial dashboard project?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "FinPal (finpal.tejasfolio.in) is an AI-driven transaction analysis dashboard built by Tejas Patil. It processes over 1000+ UPI statements using local LLMs (Ollama Qwen) for intelligent expense categorization and analytics. The code is available at github.com/Tejas164321/FinPal."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is the MyDinner mess management platform?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "MyDinner (mydinner.tejasfolio.in) is a mess operations billing and attendance platform built by Tejas Patil. It uses Next.js for role-based portals and a backend built entirely on Firebase (Auth, Firestore, Cloud Functions). The source code is at github.com/Tejas164321/My-Dinner."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "Where can I find Tejas Patil's live project demos?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tejas Patil's live project demos are accessible directly as subdomains of his portfolio: AI Recruiter at airecruiter.tejasfolio.in, FinPal at finpal.tejasfolio.in, and MyDinner at mydinner.tejasfolio.in."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is Tejas Patil's GitHub username?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tejas Patil's GitHub username is Tejas164321. You can access his open-source software repositories, contribution graphs, and project codes at github.com/Tejas164321."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is Tejas Patil's LinkedIn profile?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tejas Patil's LinkedIn profile is linkedin.com/in/tejasin. You can connect with him there for professional networking, job opportunities, and technical discussions."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What internships has Tejas Patil completed?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tejas Patil has completed several software internships including: MERN Stack Intern under EY GDS, React JS Summer Intern at Celebal Technologies, AI/Azure Intern at Edunet Foundation, and Microsoft-SAP TechSaksham AI Intern."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is Tejas Patil's CGPA at SPPU Computer Engineering?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tejas Patil maintains a strong academic record with a cumulative CGPA of 8.9/10 in Computer Engineering at Savitribai Phule Pune University (SPPU), Pune."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is the focus of Tejas Patil's software projects?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The focus of Tejas Patil's software projects is on solving real-world supply chain, recruitment, and fintech challenges using intelligent automation, Web3 technologies, and Generative AI integrations."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What programming languages and technology stacks does Tejas Patil use?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tejas Patil specializes in the MERN stack (MongoDB, Express.js, React, Node.js), Next.js, TypeScript, Python, Firebase, and Gen AI (Gemini API, Ollama LLMs). He also develops in Move language for the Sui Blockchain."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What hackathons has Tejas Patil participated in?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tejas Patil has participated in prestigious hackathons including the Smart India Hackathon (SIH), GeeksforGeeks Developer Challenges, and Alkimi MoveFWD Phase II Web3 hackathon."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "Is Tejas Patil open to freelance or full-time software developer job opportunities?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, Tejas Patil is open to professional software engineering roles, full-stack developer positions, and freelance contract development opportunities."
+      }
+    }
+  ]
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -447,6 +617,7 @@ export default function RootLayout({
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(profilePageJsonLd) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(projectsJsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       </head>
       <body className={`${inter.variable} font-body antialiased`}>
         <ThemeProvider

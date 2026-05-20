@@ -34,6 +34,11 @@ const EducationSection = dynamic(
   { loading: () => <SectionSkeleton />, ssr: true }
 );
 
+const FAQSection = dynamic(
+  () => import('@/components/sections/faq-section'),
+  { loading: () => <SectionSkeleton />, ssr: true }
+);
+
 const ContactSection = dynamic(
   () => import('@/components/sections/contact-section'),
   { loading: () => <SectionSkeleton />, ssr: true }
@@ -50,6 +55,7 @@ export default function Home() {
       <ProjectsSection />
       <SkillsSection />
       <EducationSection />
+      <FAQSection />
       <ContactSection />
     </>
   );
