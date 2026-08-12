@@ -302,12 +302,14 @@ const personJsonLd = {
     "https://www.linkedin.com/in/tejasin",
     "https://github.com/Tejas164321",
     "https://tejas164321.medium.com/",
+    "https://dev.to/tejas164321",
     BASE_URL,
   ],
   identifier: [
     { "@type": "PropertyValue", name: "GitHub", value: "Tejas164321" },
     { "@type": "PropertyValue", name: "LinkedIn", value: "tejasin" },
     { "@type": "PropertyValue", name: "Medium", value: "tejas164321" },
+    { "@type": "PropertyValue", name: "Dev.to", value: "tejas164321" },
     { "@type": "PropertyValue", name: "Portfolio ID", value: "164321" },
   ],
 };
@@ -584,6 +586,7 @@ export default function RootLayout({
         <link rel="me" href="https://www.linkedin.com/in/tejasin" />
         <link rel="me" href="https://github.com/Tejas164321" />
         <link rel="me" href="https://tejas164321.medium.com/" />
+        <link rel="me" href="https://dev.to/tejas164321" />
 
         {/* ── Core Meta ── */}
         <meta name="author" content="Tejas Patil" />
