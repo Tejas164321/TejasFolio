@@ -16,7 +16,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { Github, Linkedin, Send, Mail, Phone, BookOpen } from "lucide-react";
+import { Github, Linkedin, Send, Mail, Phone, BookOpen, Coffee } from "lucide-react";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { motion } from "framer-motion";
@@ -209,6 +209,9 @@ export default function ContactSection() {
                   </Link>
                   <Link href="https://tejas164321.medium.com/" target="_blank" rel="noopener noreferrer" aria-label="Medium">
                     <BookOpen className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
+                  </Link>
+                  <Link href="https://ko-fi.com/tejas164321" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi">
+                    <Coffee className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
                   </Link>
                 </div>
               </CardContent>

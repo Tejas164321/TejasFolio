@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, BookOpen } from "lucide-react";
+import { Github, Linkedin, BookOpen, Coffee } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -22,6 +22,10 @@ export default function Footer() {
           <Link href="https://tejas164321.medium.com/" target="_blank" rel="noopener noreferrer" aria-label="Medium"
             className="p-1.5 rounded-full hover:bg-primary/10 transition-colors">
             <BookOpen className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
+          </Link>
+          <Link href="https://ko-fi.com/tejas164321" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi"
+            className="p-1.5 rounded-full hover:bg-primary/10 transition-colors">
+            <Coffee className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
           </Link>
         </div>
       </div>
