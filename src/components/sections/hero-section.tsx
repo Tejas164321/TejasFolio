@@ -9,7 +9,7 @@
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowDown, Download, ChevronDown, Github, Linkedin, BookOpen } from "lucide-react";
+import { ArrowDown, Download, ChevronDown, Github, Linkedin, BookOpen, Coffee } from "lucide-react";
 import { motion } from "framer-motion";
 
 /**
@@ -133,6 +133,10 @@ export default function HeroSection() {
           <Link href="https://tejas164321.medium.com/" target="_blank" rel="noopener noreferrer" aria-label="Medium"
             className="p-2 rounded-full text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:bg-primary/10">
             <BookOpen className="h-6 w-6 sm:h-7 sm:w-7" />
+          </Link>
+          <Link href="https://ko-fi.com/tejas164321" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi"
+            className="p-2 rounded-full text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:bg-primary/10">
+            <Coffee className="h-6 w-6 sm:h-7 sm:w-7" />
           </Link>
         </motion.div>
       </motion.div>
