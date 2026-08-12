@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowDown, Download, ChevronDown, Github, Linkedin, BookOpen, Coffee } from "lucide-react";
 import { motion } from "framer-motion";
+import { DevtoIcon } from "@/components/icons/devto-icon";
 
 /**
  * Animation variants for the hero container to stagger child animations.
@@ -133,6 +134,10 @@ export default function HeroSection() {
           <Link href="https://tejas164321.medium.com/" target="_blank" rel="noopener noreferrer" aria-label="Medium"
             className="p-2 rounded-full text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:bg-primary/10">
             <BookOpen className="h-6 w-6 sm:h-7 sm:w-7" />
+          </Link>
+          <Link href="https://dev.to/tejas164321" target="_blank" rel="noopener noreferrer" aria-label="Dev.to"
+            className="p-2 rounded-full text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:bg-primary/10">
+            <DevtoIcon className="h-6 w-6 sm:h-7 sm:w-7" />
           </Link>
           <Link href="https://ko-fi.com/tejas164321" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi"
             className="p-2 rounded-full text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:bg-primary/10">

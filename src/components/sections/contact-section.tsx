@@ -22,6 +22,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { motion } from "framer-motion";
 import { sendMessage } from '@/ai/flows/sendMessageFlow';
 import type { GenkitError } from "genkit";
+import { DevtoIcon } from "@/components/icons/devto-icon";
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -209,6 +210,9 @@ export default function ContactSection() {
                   </Link>
                   <Link href="https://tejas164321.medium.com/" target="_blank" rel="noopener noreferrer" aria-label="Medium">
                     <BookOpen className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
+                  </Link>
+                  <Link href="https://dev.to/tejas164321" target="_blank" rel="noopener noreferrer" aria-label="Dev.to">
+                    <DevtoIcon className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
                   </Link>
                   <Link href="https://ko-fi.com/tejas164321" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi">
                     <Coffee className="h-8 w-8 text-muted-foreground hover:text-primary transition-colors" />
