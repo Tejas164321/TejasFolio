@@ -1,5 +1,5 @@
 
-# Tejas Patil - Personal Portfolio Website...
+# Tejas Patil - Personal Portfolio Website.
 
 This is the personal portfolio website for Tejas Patil, showcasing projects, skills, education, and a way to get in contact. It's built with a modern, responsive, and performant tech stack..
 
