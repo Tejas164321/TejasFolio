@@ -13,8 +13,8 @@ const educationData = [
     type: "education",
     title: "Bachelor of Engineering (BE) in Computer Engineering",
     institution: "Savitribai Phule Pune University",
-    period: "August 2022 - Present",
-    description: "Currently pursuing Bachelor of Engineering with a CGPA of 8.9/10. Focusing on core computer science principles, full-stack development, and AI/ML Engineering.",
+    period: "August 2022 - April 2026",
+    description: "Completed Bachelor of Engineering in Computer Engineering in April 2026 with a CGPA of 8.9/10. Built a strong foundation in computer science, full-stack development, and AI/ML engineering.",
     icon: <GraduationCap className="h-5 w-5 text-primary" />,
   },
   {

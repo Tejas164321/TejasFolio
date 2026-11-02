@@ -64,8 +64,8 @@ export default function HeroSection() {
       {/* SEO fallback for crawlers that don't execute JavaScript */}
       <noscript>
         <h1>Tejas Patil</h1>
-        <h2>Software Developer in Pune</h2>
-        <p>Full-Stack Developer | Gen AI Enthusiast | Building Gen AI Powered Applications</p>
+        <h2>Entry-Level Software Developer in Pune</h2>
+        <p>Computer Engineering graduate | Full-Stack Developer | Gen AI Enthusiast</p>
       </noscript>
       <motion.div
         className="w-full max-w-5xl"
@@ -89,7 +89,7 @@ export default function HeroSection() {
         <p
           className="mt-4 text-sm text-muted-foreground sm:text-base md:text-lg max-w-2xl mx-auto px-2 leading-relaxed"
         >
-          Building production-ready MERN, Next.js, and Gen AI powered full-stack applications.
+          Computer Engineering graduate (April 2026) and entry-level software developer building production-ready MERN, Next.js, and Gen AI powered applications.
         </p>
 
         {/* CTA Buttons */}

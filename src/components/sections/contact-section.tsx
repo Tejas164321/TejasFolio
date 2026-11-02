@@ -98,7 +98,7 @@ export default function ContactSection() {
           <p
             className="mt-4 text-base md:text-lg text-muted-foreground"
           >
-            Ready for new opportunities. Let&apos;s build something exceptional together.
+            I&apos;m a fresher open to entry-level software roles, internships, freelance work, and exciting collaborations.
           </p>
         </motion.div>
 

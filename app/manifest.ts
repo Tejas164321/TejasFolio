@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
     return {
         name: 'TejasFolio — Tejas Patil Portfolio',
         short_name: 'TejasFolio',
-        description: 'Official portfolio of Tejas Patil (tejas164321) — Software Developer from Pune, India. Specializing in Full Stack Development, Gen AI, and building production-grade applications.',
+        description: 'Official portfolio of Tejas Patil (tejas164321) — Computer Engineering graduate and fresher Software Developer from Pune, India. Specializing in Full Stack Development, Gen AI, and building production-grade applications.',
         start_url: '/',
         display: 'standalone',
         background_color: '#0a0a0a',
