@@ -18,11 +18,11 @@ const BASE_URL = "https://tejasfolio.in";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Tejas Patil | Software Developer | Pune | SPPU",
+    default: "Tejas Patil | Fresher Software Developer | Pune | SPPU",
     template: "%s | Tejas Patil | TejasFolio",
   },
   description:
-    "Official Portfolio of Tejas Patil (TejasFolio | tejas164321) — Software Developer from Pune, India. SPPU alumni specializing in Full Stack Development (MERN, Next.js), Gen AI, Python, and building production-grade applications. LinkedIn: tejasin | GitHub: Tejas164321",
+    "Official portfolio of Tejas Patil (TejasFolio | tejas164321) — Computer Engineering graduate and fresher Software Developer from Pune, India. SPPU graduate specializing in Full Stack Development (MERN, Next.js), Gen AI, Python, and production-grade applications. LinkedIn: tejasin | GitHub: Tejas164321",
   keywords: [
     // ─── Core Name Variants ───────────────────────────────────────
     "Tejas Patil",
@@ -80,6 +80,9 @@ export const metadata: Metadata = {
     // ─── Role & Skill-based Searches ─────────────────────────────
     "Software Developer Pune",
     "Software Developer India",
+    "Fresher Software Developer Pune",
+    "Entry Level Software Developer Pune",
+    "Computer Engineering Graduate Pune",
     "Full Stack Developer Pune",
     "Full Stack Developer India",
     "Next.js Developer Pune",
@@ -154,9 +157,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Tejas Patil | Software Developer | Pune — TejasFolio",
+    title: "Tejas Patil | Fresher Software Developer | Pune — TejasFolio",
     description:
-      "Welcome to TejasFolio — Official portfolio of Tejas Patil (tejas164321 | tejasin). Software Developer from Pune building production-grade Full Stack & Gen AI powered applications.",
+      "Welcome to TejasFolio — Official portfolio of Tejas Patil, a Computer Engineering graduate and fresher Software Developer from Pune building production-grade Full Stack & Gen AI powered applications.",
     url: BASE_URL,
     siteName: "TejasFolio — Tejas Patil Portfolio",
     locale: "en_IN",
@@ -166,16 +169,16 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tejas Patil — Software Developer | TejasFolio | Pune",
+        alt: "Tejas Patil — Fresher Software Developer | TejasFolio | Pune",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tejas Patil | Software Developer | Pune",
+    title: "Tejas Patil | Fresher Software Developer | Pune",
     description:
-      "Official portfolio of Tejas Patil (TejasFolio | tejas164321 | tejasin). Software Developer building Full Stack & Gen AI powered applications from Pune, India.",
+      "Official portfolio of Tejas Patil (TejasFolio | tejas164321 | tejasin), a Computer Engineering graduate and fresher Software Developer building Full Stack & Gen AI powered applications from Pune, India.",
     images: [{ url: "/og-image.png", alt: "Tejas Patil — TejasFolio" }],
     creator: "@tejasin",
     site: "@tejasin",
@@ -235,9 +238,9 @@ const personJsonLd = {
     height: 630,
     caption: "Tejas Patil — Software Developer from Pune, India",
   },
-  jobTitle: "Software Developer",
+  jobTitle: "Fresher Software Developer",
   description:
-    "Tejas Patil (tejas164321) is a Software Developer from Pune, India, specializing in Full Stack Development (MERN, Next.js), Gen AI, Python, Firebase, and building production-grade scalable applications.",
+    "Tejas Patil (tejas164321) is a Computer Engineering graduate and fresher Software Developer from Pune, India, specializing in Full Stack Development (MERN, Next.js), Gen AI, Python, Firebase, and building production-grade scalable applications.",
   email: "tejaspatil164321@gmail.com",
   nationality: {
     "@type": "Country",
@@ -426,7 +429,7 @@ const faqJsonLd = {
       name: "Who is Tejas Patil?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Tejas Patil is a Software Developer based in Pune, India, specializing in building production-grade Full Stack (MERN, Next.js) and Generative AI-powered applications."
+        text: "Tejas Patil is a Computer Engineering graduate and entry-level Software Developer based in Pune, India, specializing in building production-grade Full Stack (MERN, Next.js) and Generative AI-powered applications."
       }
     },
     {
@@ -450,7 +453,7 @@ const faqJsonLd = {
       name: "Where is software developer Tejas Patil based?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Software developer Tejas Patil is based in Pune, Maharashtra, India. He is pursuing his Bachelor of Engineering (BE) in Computer Engineering at Savitribai Phule Pune University (SPPU)."
+        text: "Software developer Tejas Patil is based in Pune, Maharashtra, India. He completed his Bachelor of Engineering (BE) in Computer Engineering at Savitribai Phule Pune University (SPPU) in April 2026."
       }
     },
     {

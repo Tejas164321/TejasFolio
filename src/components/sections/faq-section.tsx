@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const faqData = [
   {
     question: "Who is Tejas Patil?",
-    answer: "Tejas Patil is a Software Developer based in Pune, India, specializing in building production-grade Full Stack (MERN, Next.js) and Generative AI-powered applications.",
+    answer: "Tejas Patil is a Computer Engineering graduate and entry-level Software Developer based in Pune, India. He specializes in building production-grade Full Stack (MERN, Next.js) and Generative AI-powered applications.",
   },
   {
     question: "What is TejasFolio?",
@@ -18,7 +18,7 @@ const faqData = [
   },
   {
     question: "Where is software developer Tejas Patil based?",
-    answer: "Software developer Tejas Patil is based in Pune, Maharashtra, India. He is pursuing his Bachelor of Engineering (BE) in Computer Engineering at Savitribai Phule Pune University (SPPU).",
+    answer: "Software developer Tejas Patil is based in Pune, Maharashtra, India. He completed his Bachelor of Engineering (BE) in Computer Engineering at Savitribai Phule Pune University (SPPU) in April 2026.",
   },
   {
     question: "What software projects has Tejas Patil built?",
@@ -74,7 +74,7 @@ const faqData = [
   },
   {
     question: "Is Tejas Patil open to freelance or full-time software developer job opportunities?",
-    answer: "Yes, Tejas Patil is open to professional software engineering roles, full-stack developer positions, and freelance contract development opportunities.",
+    answer: "Yes, Tejas Patil is a fresher open to entry-level software engineering, full-stack developer, and freelance contract opportunities.",
   },
 ];
 
@@ -148,8 +148,8 @@ export default function FAQSection() {
       <div className="sr-only" aria-label="Tejas Patil project directory for accessibility">
         <h2>Tejas Patil — Project Directory</h2>
         <p>
-          The following are live software projects built by Tejas Patil (tejas164321), a Full Stack and Gen AI
-          Developer from Pune, India. All projects are showcased on TejasFolio at tejasfolio.in.
+          The following are live software projects built by Tejas Patil (tejas164321), a Computer Engineering graduate
+          and entry-level Full Stack and Gen AI Developer from Pune, India. All projects are showcased on TejasFolio at tejasfolio.in.
         </p>
         <ul>
           <li>

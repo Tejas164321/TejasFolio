@@ -51,7 +51,7 @@ export default function AboutSection() {
           <p
             className="mt-4 text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed"
           >
-            Software Developer focused on building reliable, scalable, and user-centric applications from Pune, India.
+            Fresher and entry-level software developer building reliable, scalable, and user-centric applications from Pune, India.
           </p>
         </motion.div>
 
@@ -65,10 +65,10 @@ export default function AboutSection() {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground text-sm sm:text-base">
               <p className="leading-relaxed">
-                I am a <strong>Software Developer</strong> based in <strong>Pune, India</strong>, with a degree in Computer Engineering from <strong>Savitribai Phule Pune University</strong>. My focus is on building production-grade, scalable applications using the <strong>MERN stack</strong> and <strong>Next.js</strong>, backed by well-structured REST APIs and modern backend architectures.
+                I am a <strong>Computer Engineering graduate</strong> from <strong>Savitribai Phule Pune University</strong>, having completed my degree in <strong>April 2026</strong>. I am a motivated <strong>fresher and entry-level software developer</strong> based in <strong>Pune, India</strong>, focused on building production-ready applications with the <strong>MERN stack</strong>, <strong>Next.js</strong>, and well-structured REST APIs.
               </p>
               <p className="leading-relaxed">
-                I work extensively with <strong>Gen AI and LLMs</strong> to build intelligent, automation-driven solutions — from AI-powered workflows to real-world applications like a phone-camera barcode system for real-time billing and automated inventory management. I treat Gen AI not as a buzzword, but as a practical engineering tool.
+                Through internships, freelance work, and personal projects, I have gained hands-on experience across frontend, backend, databases, and deployment. I also work with <strong>Gen AI and LLMs</strong> to build practical automation-driven solutions, including AI-powered workflows and real-world applications for financial analysis, recruitment, billing, and inventory management.
               </p>
               <p className="leading-relaxed">
                 I was a recognized participant in the <strong>Alkimi MoveFWD Phase II</strong> hackathon hosted on HackerEarth — a Web3 competition focused on building decentralized applications using the <strong>Move programming language on the Sui blockchain</strong>. Top performers were also eligible for Web3 developer internship opportunities.
@@ -78,7 +78,7 @@ export default function AboutSection() {
                 Team Collaboration & Hackathons
               </h3>
               <p className="leading-relaxed">
-                I thrive in fast-paced, collaborative environments. I have hands-on hackathon experience from <strong>Smart India Hackathon (SIH)</strong> and <strong>GeeksforGeeks (GFG)</strong> competitions, and the Alkimi MoveFWD Phase II challenge. I value clear communication, strong ownership, and consistently delivering high-quality results under tight deadlines.
+                As I begin my professional career, I am actively seeking <strong>entry-level software engineering and full-stack development opportunities</strong> where I can contribute, learn from experienced teams, and grow through meaningful product work. I value clear communication, ownership, collaboration, and consistently delivering high-quality results.
               </p>
             </CardContent>
           </Card>
