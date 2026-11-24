@@ -188,4 +188,4 @@ The repository includes `.vscode/settings.json` with recommended settings for [V
 
 ## License
 
-Released under the [MIT License](./LICENSE)...
+Released under the [MIT License](./LICENSE).
